@@ -466,7 +466,7 @@ select.form-control:not([size]):not([multiple]) {
 }
 
 .dropdown-toggle::after {
-  display: inline-block;
+  display: flow-root;
   width: 25px;
   height: 11px;
   margin-left: 0;
@@ -474,9 +474,9 @@ select.form-control:not([size]):not([multiple]) {
   content: "";
   background-image: url(../images/down-arro.png);
   border-top: 0px;
+  float: right;
   left: 0;
   right: 0;
-  float: right;
   background-size: 100%;
   background-repeat: no-repeat;
   margin-top: 12px;
